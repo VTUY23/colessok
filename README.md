@@ -1,4 +1,4 @@
 # Colessok
-![logo](logo.png)
-![banner2](banner2.png)
-![logo2](logo2.png)
+<img src="logo.png" width="150" />
+<img src="banner2.png" width="150" />
+<img src="logo2.png" width="150" />
