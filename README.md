@@ -1,7 +1,7 @@
 # Colessok
 
-<div style="display: flex; gap: 10px; align-items: center; width: 100%">
-  <img src="logo.png" style="height: 150px;"/>
-  <img src="banner2.png" style="height: 200px;"/>
-  <img src="logo2.png" style="height: 150px;"/>
+<div style="display: grid; grid-template-columns: 2fr 5fr 2fr; align-items: center;">
+  <img src="logo.png" style="width:100%" />
+  <img src="banner2.png" style="width:100%" />
+  <img src="logo2.png" style="width:100%" />
 </div>
