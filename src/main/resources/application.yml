@@ -1,0 +1,30 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: api
+  datasource:
+    url: jdbc:mysql://localhost:3306/colessok
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 5MB
+
+app:
+  file:
+    storage-dir: C:/upload
+    download-prefix: http://localhost:8080/api/media/download/
+
+jwt:
+  signerKey: aSkOXx4NYBTH0Nnb22dzr+jE01gB03NMV7BzWLtwRl4tC0ZKT3Vrps/5fMBB0siu
+  valid-duration: 3600 # in second
+  refreshable-duration: 36000 # in seconds
