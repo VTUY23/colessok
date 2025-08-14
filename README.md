@@ -1,6 +1,6 @@
 # Colessok
 
-<div style="display: flex; gap: 0px ; align-items: center; width: 100%">
+<div style="display: flex; gap: 10px ; align-items: center; width: 100%">
   <img src="logo.png" style="height: 150px;"/>
   <img src="banner2.png" style="height: 200px;"/>
   <img src="logo2.png" style="height: 150px;"/>
